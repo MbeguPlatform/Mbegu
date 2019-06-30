@@ -1,0 +1,134 @@
+body
+{
+	margin: 0;
+	font-family: Arial;
+	background-color: #fafafa;
+}
+
+.grid 
+{
+	display: grid;
+	grid-template-rows: 70px repeat(6, 1fr); 
+	grid-template-columns: 400px 2fr 2fr 400px;
+}
+
+.headerhome
+{
+	grid-row: 1 / 2;
+	grid-column: 1 / 5;
+	background-color: #ccff90;
+	/*justify-self: stretch; */
+	height: 70px; 
+	
+}
+
+.logohome
+{
+	display: block;
+	margin: 0 auto;
+	height: 70px;
+}
+
+.topnav
+{
+	grid-row: 2 / 3;
+	grid-column: 1 / 5;
+	background-color: #00c853;
+	align-self: start; 
+}
+
+.topnav a
+{
+	float: left;
+	color: white;
+	background-color: #00c853; 
+	text-align: center;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	width: 20%;
+	height: 20px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.topnav a:hover
+{
+	background-color: #00e676;
+}
+
+.topnav a.active
+{
+	background-color: #00aa46;
+	color: white;
+}
+
+h2
+{
+	grid-row: 2 / 3;
+	grid-column: 2 / 4;
+	margin: 80px auto 0px auto;
+	font-size: 35px;
+
+}
+
+button
+{
+	background-color: #00c853/*#00b248*/;
+	border: solid;
+	border-color: white;
+	color: white;
+	text-align: center;
+	font-size: 25px;
+	height: 150px;
+	margin: 5px 5px;
+}
+
+button:hover
+{
+	cursor: pointer;
+	background-color: #00e676;
+}
+
+.btn1 
+{
+	grid-row: 3 / 4;
+	grid-column: 2 / 3;
+}
+
+.btn2
+{
+	grid-row: 3 / 4;
+	grid-column: 3 / 4; 
+
+}
+
+.btn3
+{
+	grid-row: 4 / 5;
+	grid-column: 2 / 3; 
+}
+
+.btn4
+{
+	grid-row: 4 / 5;
+	grid-column: 3 / 4; 
+}
+
+.btn5
+{
+	grid-row: 5 / 6;
+	grid-column: 2 / 3; 
+}
+
+.btn6
+{
+	grid-row: 5 / 6;
+	grid-column: 3 / 4; 
+}
+
+.btn7
+{
+	grid-row: 6 / 7;
+	grid-column: 2 / 4; 
+}
+

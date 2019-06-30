@@ -1,0 +1,180 @@
+body
+{
+	margin: 0;
+	font-family: Arial;
+	background-color: #fafafa;
+}
+
+    .g-signin2  
+    {
+     	margin: 20px auto 15px auto;
+     	width: 50%;  
+    }
+
+    .data
+    {
+    	display:none;
+    	text-align: center;
+		background-color: white;
+		width: 500px;
+		margin: 20px auto;
+		padding-top: 20px;
+		padding-bottom: 50px;
+		border: solid 1px #c7c7c7;
+		border-radius: 10px;
+    }
+
+.topnav
+{
+	grid-row: 2 / 3;
+	grid-column: 1 / 5;
+	background-color: #00c853;
+	align-self: start; 
+}
+
+.topnav a
+{
+	float: left;
+	color: white;
+	background-color: #00c853; 
+	text-align: center;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	width: 20%;
+	height: 20px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.topnav a:hover
+{
+	background-color: #00e676;
+}
+
+.topnav a.active
+{
+	background-color: #00aa46;
+	color: white;
+}
+
+.header
+{
+	/*background-color: #f5f5f5; */
+	background-color: #ccff90;
+	padding: 120px 0px;
+	display: block;
+}
+
+.headerhome
+{
+	/*background-color: #f5f5f5; */
+	background-color: #ccff90;
+	height: 70px;
+	display: none;
+}
+
+.logo
+{
+	display: block;
+	margin: 0 auto;
+}
+
+.logohome
+{
+	display: block;
+	margin: 0 auto;
+	height: 70px;
+	width: auto;
+}
+
+.body
+{
+	background-color: white;
+	height: 500px;
+	padding: 10px 10px;
+}
+
+.blocksignin
+{
+	text-align: center;
+	background-color: white;
+	width: 500px;
+	margin: 20px auto;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	border: solid 1px #c7c7c7;
+	display: block;
+}
+
+.fbbutton
+{
+	background-color: #3b5998;
+	margin: 0px auto 15px auto;
+    width: 50%;
+	color: white;
+	border: none;
+	height: 50px;
+
+}
+
+.mbegubutton
+{
+	background-color: #43a047;
+	margin: 0 auto;
+    width: 50%;
+    color: white;
+    border: none;
+    height: 50px;
+}
+
+.registerbtn
+{
+	background-color: #43a047;
+	color: white;
+    border: none;
+    height: 35px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.registerbtn:hover
+{
+	background-color: white;
+	color: #43a047;
+	border: 2px solid #43a047;
+}
+
+.signoutbtn
+{
+	background-color: #e53935;
+	color: white;
+    border: none;
+    height: 35px;
+    cursor: pointer;
+
+}
+
+.signoutbtn:hover
+{
+	background-color: white;
+	color: #e53935;
+	border: 2px solid #e53935;
+}
+
+.profilehead, .emailhead
+{
+	font-weight: bold;
+}
+
+.datehead
+{
+	font-weight: lighter;
+	margin: 40px 0px 0px 250px;
+}
+
+.genericprofile
+{
+	height: 35%;
+	width: 35%;
+	margin-top: 20px;
+}
